@@ -29,6 +29,7 @@ To ensure the interface is both beautiful and functional, the following HCI rule
 * **Fully Responsive Layout:** Flawless rendering across desktops, tablets, and mobile screens.
 * **Intuitive Navigation:** A categorized navigation bar for effortless search of content.
 * **Aesthetic UI Elements:** Thoughtfully styled buttons, inputs, and interactive components.
+* **Trending Content Hub:** Integrated a dedicated "Trending Videos" section designed for passive browsing, allowing casual users to discover popular content easily without needing a specific search query.
 
 ## 📂 Installation & Local Setup
 
