@@ -2,7 +2,6 @@
 
 > A conceptual redesign of the Iranian video-sharing platform, **Namasha**, focused on modernizing the user interface and optimizing the user experience through core Human-Computer Interaction (HCI) principles.
 
-![UI Preview](https://via.placeholder.com/1200x600/ffb6c1/ffffff?text=Add+a+beautiful+screenshot+of+your+redesign+here!)
 
 ## 🍿 About the Project
 
