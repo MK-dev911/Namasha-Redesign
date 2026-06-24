@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Namasha – Smart Digital Platform</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@latest/dist/lucide.min.js"></script>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="header">
+  <div class="header-right">
+    <img src="namasha-logo-black.png" alt="Namasha Logo" class="logo">
+  </div>
+
+  <nav class="nav">
+
+  <a href="#hero">خانه</a>
+  <a href="#trends">ترند</a>
+
+  <!-- Videos Mega Menu -->
+  <div class="nav-item has-mega">
+  <button class="nav-link">ویدیوها</button>
+
+  <div class="mega-menu mega-videos">
+
+    <div class="mega-column">
+      <a href="#" class="mega-item">
+        <svg class="mega-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" 
+        class="lucide lucide-laugh-icon lucide-laugh"><circle cx="12" cy="12" r="10"/><path d="M18 13a6 6 0 0 1-6 5 6 6 0 0 1-6-5h12Z"/>
+        <line x1="9" x2="9.01" y1="9" y2="9"/><line x1="15" x2="15.01" y1="9" y2="9"/></svg>
+        سرگرمی و طنز
+      </a>
+
+      <a href="#" class="mega-item">
+        <svg class="mega-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" 
+        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" 
+        stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-volleyball-icon lucide-volleyball"><path d="M11.1 7.1a16.55 16.55 0 0 1 10.9 4"/><path d="M12 12a12.6 12.6 0 0 1-8.7 5"/><path d="M16.8 13.6a16.55 16.55 0 0 1-9 7.5"/>
+        <path d="M20.7 17a12.8 12.8 0 0 0-8.7-5 13.3 13.3 0 0 1 0-10"/><path d="M6.3 3.8a16.55 16.55 0 0 0 1.9 11.5"/><circle cx="12" cy="12" r="10"/></svg>
+         ورزشی
+      </a>
+
+      <a href="#" class="mega-item">
+        <svg class="mega-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-popcorn-icon lucide-popcorn">
+        <path d="M18 8a2 2 0 0 0 0-4 2 2 0 0 0-4 0 2 2 0 0 0-4 0 2 2 0 0 0-4 0 2 2 0 0 0 0 4"/><path d="M10 22 9 8"/><path d="m14 22 1-14"/><path d="M20 8c.5 0 .9.4.8 1l-2.6 12c-.1.5-.7 1-1.2 1H7c-.6 0-1.1-.4-1.2-1L3.2 9c-.1-.6.3-1 .8-1Z"/></svg>
+        </svg>
+        کارتون و انیمیشن
+      </a>
+
+      <a href="#" class="mega-item">
+        <svg class="mega-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-laptop-icon lucide-laptop">
+        <path d="M18 5a2 2 0 0 1 2 2v8.526a2 2 0 0 0 .212.897l1.068 2.127a1 1 0 0 1-.9 1.45H3.62a1 1 0 0 1-.9-1.45l1.068-2.127A2 2 0 0 0 4 15.526V7a2 2 0 0 1 2-2z"/><path d="M20.054 15.987H3.946"/></svg>
+         علم و فن‌آوری
+      </a>
+    </div>
+
+    <div class="mega-column">
+      <a href="#" class="mega-item">
+        <svg class="mega-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-car-icon lucide-car">
+          <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><path d="M9 17h6"/><circle cx="17" cy="17" r="2"/></svg>
+        خودرو و وسایل نقلیه
+      </a>
+
+      <a href="#" class="mega-item">
+        <svg class="mega-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-open-icon lucide-book-open"><path d="M12 7v14"/>
+          <path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg>
+        آموزش
+      </a>
+
+      <a href="#" class="mega-item">
+        <svg class="mega-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-music-icon lucide-music">
+          <path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+        موسیقی و هنر
+      </a>
+
+      <a href="#" class="mega-item">
+        <svg class="mega-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-rss-icon lucide-rss">
+          <path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>
+        اخبار و سیاست
+      </a>
+    </div>
+
+    <div class="mega-column">
+      <a href="#" class="mega-item">
+        <svg class="mega-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-squirrel-icon lucide-squirrel">
+          <path d="M15.236 22a3 3 0 0 0-2.2-5"/><path d="M16 20a3 3 0 0 1 3-3h1a2 2 0 0 0 2-2v-2a4 4 0 0 0-4-4V4"/><path d="M18 13h.01"/><path d="M18 6a4 4 0 0 0-4 4 7 7 0 0 0-7 7c0-5 4-5 4-10.5a4.5 4.5 0 1 0-9 0 2.5 2.5 0 0 0 5 0C7 10 3 11 3 17c0 2.8 2.2 5 5 5h10"/></svg>
+        حیوانات و طبیعت
+      </a>
+
+      <a href="#" class="mega-item">
+        <svg class="mega-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-gamepad2-icon lucide-gamepad-2">
+          <line x1="6" x2="10" y1="11" y2="11"/><line x1="8" x2="8" y1="9" y2="13"/><line x1="15" x2="15.01" y1="12" y2="12"/><line x1="18" x2="18.01" y1="10" y2="10"/><path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z"/>
+        </svg>
+        بازی
+      </a>
+
+      <a href="#" class="mega-item">
+        <svg class="mega-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" 
+        class="lucide lucide-cloud-lightning-icon lucide-cloud-lightning"><path d="M6 16.326A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 .5 8.973"/><path d="m13 12-3 5h4l-3 5"/></svg>
+         حوادث
+      </a>
+
+      <a href="#" class="mega-item">
+        <svg class="mega-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" 
+        class="lucide lucide-church-icon lucide-church"><path d="M10 9h4"/><path d="M12 7v5"/><path d="M14 21v-3a2 2 0 0 0-4 0v3"/><path d="m18 9 3.52 2.147a1 1 0 0 1 .48.854V19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-6.999a1 1 0 0 1 .48-.854L6 9"/><path d="M6 21V7a1 1 0 0 1 .376-.782l5-3.999a1 1 0 0 1 1.249.001l5 4A1 1 0 0 1 18 7v14"/>
+        </svg>
+        مذهبی
+      </a>
+    </div>
+
+  </div>
+</div>
+
+
+  <!-- Movies Mega Menu -->
+  <div class="nav-item has-mega">
+    <button class="nav-link">فیلم و سریال</button>
+
+    <div class="mega-menu">
+      <div class="mega-column">
+        <h4>نوع</h4>
+        <a href="#">سینمایی</a>
+        <a href="#">انیمیشن</a>
+        <a href="#">سریال</a>
+        <a href="#">مستند</a>
+      </div>
+
+      <div class="mega-column">
+        <h4>ژانر</h4>
+        <a href="#">درام</a>
+        <a href="#">کمدی</a>
+        <a href="#">اکشن</a>
+        <a href="#">ترسناک</a>
+      </div>
+
+      <div class="mega-column">
+        <h4>کشور</h4>
+        <a href="#">ایرانی</a>
+        <a href="#">خارجی</a>
+      </div>
+    </div>
+  </div>
+
+  <a href="#features">آپلود</a>
+  <a href="#contact-us">تماس با ما</a>
+</nav>
+
+
+  <div class="header-left">
+    <button class="menu-toggle" aria-label="منوی اصلی">
+  <svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" 
+  class="lucide lucide-layout-grid-icon lucide-layout-grid"><rect width="7" height="7" x="3" y="3" rx="1"/><rect width="7" height="7" x="14" y="3" rx="1"/><rect width="7" height="7" x="14" y="14" rx="1"/><rect width="7" height="7" x="3" y="14" rx="1"/></svg>
+</button>
+              
+    <button id="theme-toggle" class="theme-toggle" aria-label="تغییر حالت نمایش">
+    <span class="icon sun">☀️</span>
+    <span class="icon moon">🌙</span>
+    </button>
+    <button class="btn-outline">ورود</button>
+    <button class="btn-primary">ثبت‌نام</button>
+  </div>
+</header>
+
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero" style="background-image: url('bg3.jpg');">
+    <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+    <h1>همه‌ی محتوا، در یک نما</h1>
+    <p>
+      از ویدیوهای کوتاه و بلند کاربران تا بلاگ‌ها، انیمیشن‌ها و سریال‌ها—نماشا جایی برای دیدن و کشف بی‌مرز محتوا.
+    </p>
+    <form class="hero-search" role="search" action="/search">
+    <input
+      type="search"
+      name="q"
+      placeholder="جستجوی فیلم، سریال، ویدیو یا کانال..."
+      aria-label="جستجو در نماشا"
+    />
+    <button type="submit">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" 
+      class="lucide lucide-search-icon lucide-search"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
+     
+    </button>
+  </form>
+  </section>
+
+  <!-- content-choice Section -->
+<section id="content-choice" class="content-choice">
+  <h2>چه چیزی می‌خواهید تماشا کنید؟</h2>
+
+  <div class="choice-grid">
+    
+    <a href="/movies" class="choice-card movies">
+      <div class="choice-icon">🎬</div>
+      <h3>فیلم و سریال</h3>
+      <p>تماشای فیلم‌ها و سریال‌های منتخب، دوبله و زیرنویس</p>
+    </a>
+
+    <a href="/videos" class="choice-card videos">
+      <div class="choice-icon">▶</div>
+      <h3>ویدیوها</h3>
+      <p>ویدیوهای کوتاه و بلند کاربران، آموزش، سرگرمی و بیشتر</p>
+    </a>
+
+  </div>
+</section>
+
+
+<!-- Trends Section -->
+<section id="trends" class="trends">
+  <div class="trends-header">
+    <h2>ترندهای امروز 🔥</h2>
+    <a href="#" class="trends-more"><span>مشاهده همه </span><span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" 
+    class="lucide lucide-chevron-left-icon lucide-chevron-left"><path d="m15 18-6-6 6-6"/></svg></span></a>
+  </div>
+
+  <div class="trends-grid">
+    
+    <a href="#" class="trend-card">
+      <div class="trend-thumb">
+        <!-- replace src later -->
+        <img src="images/trend-main.jpg" alt="ویدیوی ترند اصلی">
+        <span class="duration">12:45</span>
+      </div>
+      <div class="trend-info">
+        <h3>جالب‌ترین ویدیوی امروز نماشا</h3>
+        <p>۲۳۴٬۰۰۰ بازدید • ۳ ساعت پیش</p>
+      </div>
+    </a>
+
+    <a href="#" class="trend-card">
+      <div class="trend-thumb">
+        <img src="images/trend-1.jpg" alt="">
+        <span class="duration">05:12</span>
+      </div>
+      <div class="trend-info">
+        <h3>ویدیوی ترند شماره یک</h3>
+        <p>۹۸٬۰۰۰ بازدید</p>
+      </div>
+    </a>
+
+    <a href="#" class="trend-card">
+      <div class="trend-thumb">
+        <img src="images/trend-2.jpg" alt="">
+        <span class="duration">08:40</span>
+      </div>
+      <div class="trend-info">
+        <h3>ویدیوی ترند شماره دو</h3>
+        <p>۷۵٬۰۰۰ بازدید</p>
+      </div>
+    </a>
+
+    <a href="#" class="trend-card">
+      <div class="trend-thumb">
+        <img src="images/trend-3.jpg" alt="">
+        <span class="duration">03:55</span>
+      </div>
+      <div class="trend-info">
+        <h3>ویدیوی ترند شماره سه</h3>
+        <p>۶۲٬۰۰۰ بازدید</p>
+      </div>
+    </a>
+
+    <a href="#" class="trend-card">
+      <div class="trend-thumb">
+        <img src="images/trend-1.jpg" alt="">
+        <span class="duration">05:12</span>
+      </div>
+      <div class="trend-info">
+        <h3>ویدیوی ترند شماره چهار</h3>
+        <p>۹۸٬۰۰۰ بازدید</p>
+      </div>
+    </a>
+
+    <a href="#" class="trend-card">
+      <div class="trend-thumb">
+        <img src="images/trend-1.jpg" alt="">
+        <span class="duration">05:12</span>
+      </div>
+      <div class="trend-info">
+        <h3>ویدیوی ترند شماره پنج</h3>
+        <p>۹۸٬۰۰۰ بازدید</p>
+      </div>
+    </a>
+
+    <a href="#" class="trend-card">
+      <div class="trend-thumb">
+        <img src="images/trend-1.jpg" alt="">
+        <span class="duration">05:12</span>
+      </div>
+      <div class="trend-info">
+        <h3>ویدیوی ترند شماره شش</h3>
+        <p>۹۸٬۰۰۰ بازدید</p>
+      </div>
+    </a>
+
+    <a href="#" class="trend-card">
+      <div class="trend-thumb">
+        <img src="images/trend-1.jpg" alt="">
+        <span class="duration">05:12</span>
+      </div>
+      <div class="trend-info">
+        <h3>ویدیوی ترند شماره هفت</h3>
+        <p>۹۸٬۰۰۰ بازدید</p>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+
+  <!-- Features -->
+  <h2 id="features" class="features-title">چرا نماشا؟</h2>
+  <section class="features">
+  <div class="feature-card">
+    <h3>تمرکز بر کاربر</h3>
+    <p>نماشا با رعایت اصول HCI و UX طراحی شده تا تجربه کاربری ساده و لذت‌بخش باشد.</p>
+  </div>
+
+  <div class="feature-card">
+    <h3>دسترسی آسان به محتوای متنوع</h3>
+    <p>فیلم، سریال، ویدیوهای کوتاه و بلند، بلاگ‌ها و کانال‌های رسمی، همه در یک پلتفرم.</p>
+  </div>
+
+  <div class="feature-card">
+    <h3>سرعت و عملکرد بالا</h3>
+    <p>بارگذاری سریع و بهینه برای همه دستگاه‌ها و مرورگرها، بدون افت کیفیت تجربه کاربری.</p>
+  </div>
+
+  <div class="feature-card">
+    <h3>تعامل و مشارکت کاربران</h3>
+    <p>امکان لایک، کامنت، اشتراک‌گذاری و آپلود ویدیو برای ایجاد جامعه‌ای فعال و پویا.</p>
+  </div>
+
+  <div class="feature-card">
+    <h3>دسته‌بندی هوشمند و جستجوی پیشرفته</h3>
+    <p>ترندها، ژانرها و پیشنهادهای شخصی‌سازی شده برای پیدا کردن سریع محتوای مورد علاقه.</p>
+  </div>
+
+</section>
+
+
+  <!-- Call to Action -->
+  <section id="cta" class="cta">
+    <h2>فقط تماشا نکن، بخشی از نماشا باش!</h2>
+    <p>ویدیو ببین، نظر بده، محتوا آپلود کن و سلیقه‌ات را بساز.</p>
+    <button class="btn-secondary">پیوستن به نماشا</button>
+  </section>
+
+  <!-- Footer -->
+   <footer>
+    <div id="contact-us" class="first-footer">
+  <div class="footer-column">
+    <h4>درباره نماشا</h4>
+    <ul>
+      <li><a href="#">فرصت‌های شغلی</a></li>
+      <li><a href="#">تماس با ما</a></li>
+      <li><a href="#">درباره ما</a></li>
+    </ul>
+  </div>
+
+  <div class="footer-column">
+    <h4>خدمات کاربران</h4>
+    <ul>
+      <li><a href="#">درخواست کانال رسمی</a></li>
+      <li><a href="#">گزارش تخلف</a></li>
+      <li><a href="#">تبلیغات</a></li>
+    </ul>
+  </div>
+
+  <div class="footer-column">
+    <h4>حقوقی و حریم خصوصی</h4>
+    <ul>
+      <li><a href="#">قوانین و مقررات</a></li>
+      <li><a href="#">حریم خصوصی کاربران</a></li>
+    </ul>
+  </div>
+
+  <div class="footer-column logo-footer">
+    <img src="/images/namasha-logo-black.png" alt="Namasha Logo" />
+  </div>
+</div>
+
+  <div class="second-footer">
+    <p>© 2026 Namasha.com | Designed with HCI principles</p>
+  </div>
+   </footer>
+
+   <div class="list_nav_mobile" id="mobileMenu">
+  <button class="mobile-close">&times;</button> <!-- Close button -->
+  <ul>
+    <li><a href="#hero">خانه</a></li>
+    <li><a href="#trends">ترند</a></li>
+    <li><a href="#">ویدیوها</a></li>
+    <li><a href="#">فیلم و سریال</a></li>
+    <li><a href="#contact-us">تماس با ما</a></li>
+    <li><a href="#features">آپلود</a></li>
+  </ul>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
