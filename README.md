@@ -2,6 +2,9 @@
 
 > A conceptual redesign of the Iranian video-sharing platform, **Namasha**, focused on modernizing the user interface and optimizing the user experience through core Human-Computer Interaction (HCI) principles.
 
+* The **Real Namasha** Website: (https://www.namasha.com/)
+* My **Redesigned Namasha** Website: (https://mk-dev911.github.io/Namasha-Redesign/)
+
 
 ## 🍿 About the Project
 
@@ -32,8 +35,10 @@ To ensure the interface is both beautiful and functional, the following HCI rule
 
 ## 📂 Installation & Local Setup
 
-To view the project locally, follow these steps:
+1. ckick on URL to see the webseite alive (https://mk-dev911.github.io/Namasha-Redesign/)
 
-1. Clone the repository:
+Or
+
+2.  Clone the repository:
    ```bash
    git clone [https://github.com/MK-dev911/Namasha-Redesign.git](https://github.com/MK-dev911/Namasha-Redesign.git)
