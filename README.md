@@ -2,13 +2,14 @@
 
 > A conceptual redesign of the Iranian video-sharing platform, **Namasha**, focused on modernizing the user interface and optimizing the user experience through core Human-Computer Interaction (HCI) principles.
 
-* The **Real Namasha** Website: (https://www.namasha.com/)
-* My **Redesigned Namasha** Website: (https://mk-dev911.github.io/Namasha-Redesign/)
-
-
 ## 🍿 About the Project
 
 This project was built to practice standardizing web pages and creating intuitive, simple and aesthetic digital environments. By reimagining a popular video platform, My main goal was to ensure users feel naturally guided throughout the platform, making it easy for them to find exactly what they need.
+
+
+* The **Real Namasha** Website: (https://www.namasha.com/)
+* My **Redesigned Namasha** Website: (https://mk-dev911.github.io/Namasha-Redesign/)
+
 
 ## ✨ Key HCI Principles Applied
 
